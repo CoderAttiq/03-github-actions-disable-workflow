@@ -1,0 +1,10 @@
+name: Disable Test Workflow
+
+on: push
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "Workflow is running"
